@@ -14,7 +14,24 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Geetha Girithari</small>
+          This app was coded by
+          <a
+            href="https://www.linkedin.com/in/geetha-girithari"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            {" "}
+            Geetha Girithari
+          </a>{" "}
+          and is
+          <a
+            href="https://github.com/Geets19/dictionary-app"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            {" "}
+            open-sourced on GitHub
+          </a>
         </footer>
       </div>
     </div>
